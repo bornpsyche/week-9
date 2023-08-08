@@ -13,6 +13,10 @@ app.get("/", (req,res) => {
   res.send("Hello World! I loved learning to deploy this:)");
 })
 
+app.get("/me", (req,res) => {
+  res.send("I am here!");
+})
+
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
