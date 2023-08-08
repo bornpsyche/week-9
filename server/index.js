@@ -11,7 +11,8 @@ app.use(express.json());
 
 app.get("/", (req,res) => {
   res.send("Hello World!");
-}
+})
+
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
