@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req,res) => {
-  res.send("Hello World! This should be working now. God Please /\");
+  res.send("Hello World! This should be working now. God Please");
 })
 
 app.get("/me", (req,res) => {
