@@ -14,7 +14,7 @@ app.get("/", (req,res) => {
 })
 
 app.get("/me", (req,res) => {
-  res.send("I am here!");
+  res.send("I am bornpsyche!");
 })
 
 app.use("/admin", adminRouter)
